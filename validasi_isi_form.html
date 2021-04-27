@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device width, initial-scale=1.0">
+	<title>Form Validasi</title>
+</head>
+<body>
+	<style>
+		form p > label {
+			display: inline-block;
+			width: 100px;
+		}
+		form input[type="text"], form textarea {
+			border: 1px solid #197a43;
+		}
+		form input[type="submit"] {
+			border: 1px solid #197a43;
+			background-color: #197a43;
+			color: #ffffff;
+			font-weight: bold;
+			padding: 5px 15px;
+		}
+	</style>
+	<header>
+		<h2>Validasi pada isian form</h2>
+	</header>
+		<form action="proses.php" method="POST" onSubmit="validasi()">
+			<fieldset>
+			<p>
+				<label>Nama Lengkap:</label>
+				<input type="text" name="nama" id="nama" />
+			</p>
+			<p>
+				<label>Email:</label>
+				<input type="email" name="email" id="email" />
+			</p>
+			<p>
+				<label>Alamat:</label>
+				<textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Daftar" class="tombol">
+			</p>
+			</fieldset>
+		</form>
+</body>
+<script type="text/javascript">
+	function validasi() {
+		var nama = document.getElementById("nama").value;
+		var email = document.getElementById("email").value;
+		var alamat = document.getElementById("alamat").value;
+		if (nama != "" && email!="" && alamat !="") {
+			return true;
+		}else{
+			alert('Anda harus mengisi data dengan lengkap !');
+		}
+	}
+</script>
+</html>

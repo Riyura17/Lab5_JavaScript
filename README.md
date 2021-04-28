@@ -4,13 +4,13 @@ Kelas	: TI.19.A3<br>
 Mata Kuliah	: Pemrograman WEB<hr>
 
 1.	Pertama kita membuat file lab5_javascript.html dan diisikan kode berikut<br>
-![(01C) Awalan](https://user-images.githubusercontent.com/59679660/116274769-28c34a00-a7ad-11eb-8135-e0b0204fd1bf.png)
+![(01C) Awalan](https://user-images.githubusercontent.com/59679660/116274769-28c34a00-a7ad-11eb-8135-e0b0204fd1bf.png)<br>
 Akan keluar tampilan seperti dibawah
 ![(01) Awalan](https://user-images.githubusercontent.com/59679660/116274627-0af5e500-a7ad-11eb-92cf-c8a25e3591e0.png)<br>
 
 2.	Pemakaian alert sebagai property window<br>
 dialog alert biasanya digunakan untuk menampilkan sebuah pesan peringatan atau informasi. Buat javascript pada tag <body> seperti dibawah
-![(02C) Alert sebagai properti](https://user-images.githubusercontent.com/59679660/116338944-c303ac00-a806-11eb-8fcc-0c0b1f2e14d5.png)
+![(02C) Alert sebagai properti](https://user-images.githubusercontent.com/59679660/116338944-c303ac00-a806-11eb-8fcc-0c0b1f2e14d5.png)<br>
 lalu tampilannya akan seperti ini
  ![(02) Alert sebagai properti](https://user-images.githubusercontent.com/59679660/116338949-c7c86000-a806-11eb-9b4a-0b8fd6d0b39e.png)<br>
 
